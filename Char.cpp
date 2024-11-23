@@ -16,4 +16,10 @@ int main()
 
     std::cout << "char4 : " << char4 << std::endl;// priting the ascII A
     std::cout << "char4(int) : " << static_cast<int>(char4) << std::endl;//printing the int as it is 65 not as caracter A
+
+    std::cout << std::endl;
+
+    char char5 = 87;
+    std::cout << "char(int)" << static_cast<int>(char5)<< std::endl;
+    std::cout << "char(int)" << static_cast<char>(char5)<< std::endl;
 }
