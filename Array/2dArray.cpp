@@ -1,4 +1,4 @@
-//2d array
+    //2d array
 #include<iostream>
 #include<iomanip>
 
